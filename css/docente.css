@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:-webkit-linear-gradient(#00538C, rgba(0, 84, 140, 0.5), rgba(0, 84, 140, 0.5), #00538C); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#00538C, rgba(0, 84, 140, 0.5), rgba(0, 84, 140, 0.5), #00538C); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#00538C, rgba(0, 84, 140, 0.5), rgba(0, 84, 140, 0.5), #00538C); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#00538C, rgba(0, 84, 140, 0.5), rgba(0, 84, 140, 0.5), #00538C); /* Standard syntax */
+    max-width:1920px;
+    min-width: 360px;
+}
+header {
+    width: 90%;
+    height: 25%;
+    margin: 5% 5% 0% 5%;
+    
+}
+
+header nav{
+    border:2px solid white;
+    background:#00538C;   
+    overflow: hidden;
+}
+footer .mensajes{
+    width: 100%;
+    background:	#3F3739;
+    overflow: hidden;
+}
+header nav ul li, .mensajes ul li {
+     list-style-type: none;
+    float: left;
+}
+header nav ul li a, .mensajes ul li{
+    padding: 10px 20px;
+    display: block;
+    color: floralwhite;
+text-decoration: none;
+}
+div a{
+    text-decoration: none;
+}
+header nav ul li a:hover, .doc a, .doc{
+    background: white; 
+    color: #00538C;   
+}
+.main{
+    width: 90%;
+    height: 25%;
+    margin: 0% 5% 0% 5%;
+    box-sizing: border-box;
+    
+}
+
+
+.main img{
+    background: white;
+    width: 40%;
+ 
+ margin: 1%;
+padding: 2%;
+
+ border-radius: 100%;
+    box-sizing: border-box;
+}
+
+    
+
+
+
+
+
+    
+
+
+  
+
+footer{
+
+    width: 100%
+     
+}
+
+
+
+@media screen and (max-width: 1080px){
+    .a{
+        display: none;
+    }
+}
+    @media screen and (max-width: 720px){
+        header{
+            width: 100%;
+            margin: 0%;
+        }
+        
+        .b {
+            display: none;
+        }
+        
+            
+           .mensajes ul li{float: none;
+        }
+            }
+            @media screen and (max-width: 556px){
+                .rev {
+                    display: none;
+                }
+}
+                @media screen and (max-width: 360px){
+                  .main .slider, aside{
+                       width: 100%;
+                       
+                   }
+                   header nav ul li a{
+                    padding: 10px 10px;}
+                h3{
+                    font-size: 1.5em;
+                }
+                h2{
+                    font-size: 0.5em;
+                }
+                h1{
+                    font-size: 1.4em;
+                }
+              
+              }
+
+
+                
+                
